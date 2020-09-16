@@ -13,6 +13,11 @@ namespace AzureCecilia_OS
             Cosmos.System.Network.IPv4.Config c = new Config(addr, submask, gateway);
             return true;
         }
+        public string DEBUG_NET_GETOEMSTRING()
+        {
+            
+            return "1";
+        }
     }
     class CommandExecutorInstance
     {
@@ -67,6 +72,7 @@ namespace AzureCecilia_OS
         public static void Run(string command, string args)
         {
             CommandExecutorInstance c = new CommandExecutorInstance();
+            CPUManagedEx cpu = new CPUManagedEx();
             switch (command)
             {
                 case "print":
@@ -103,6 +109,15 @@ namespace AzureCecilia_OS
                     {
                         c.Beep(Convert.ToUInt32(args));
                         break;
+                    }
+                case "cpu::vendorname":
+                    {
+                        Console.WriteLine(cpu.getCPUVendorString());break;
+
+                    }
+                case "cpu::cyclespeed":
+                    {
+                        Console.WriteLine(cpu.getCPUCycleSpeed().ToString());break;
                     }
             }
         }
