@@ -1,0 +1,13 @@
+﻿原则上,进行开发应当使用如下流程:
+
+源代码=>推送到/dev分支上=>视情况publish掉,成为DEV/ALPHA/BETA版=>合并到master分支
+
+原则上,新版本应当使用如下流程:
+
+/master分支上的源代码=>合并到/product上=>发布product(release)版
+
+某些细微修正,可不增加版本号,直接把版本状态后加上'HF',既Hotfix
+
+排序等级:
+
+product > master > dev > beta > alpha >= zero

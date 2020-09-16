@@ -1,0 +1,20 @@
+﻿Version 20.09.01.21190(Build 21190/Cecilia;[PUBLISH ON 2020-09-14];{Alpha Version}):
+	- Init project
+
+Version 20.09.01.21254(Build 21254/Cecilia;[PUBLISH ON 2020-09-15];{Alpha Version}):
+	- New func: beep(freq) *Freq >32 <32767
+	- New func: SETNETPROF(adr,sm,gt) *NO PUBLISH
+
+Version 20.09.01.21337(Build 21337/Cecilia;[PUBLISH ON 2020-09-15];{Alpha Version}):
+	- New func of keywords: 'moredo'
+		- Use keyword to end: 'END'
+		- Debuging...
+		- Update ACSh for new keywords!(Debug)
+
+Version 20.09.01.21338(Build 21338/Cecilia;[PUBLISH ON 2020-09-15];{Alpha Version}):
+	- Fix bug for keyword 'END' *DELETE
+	- Fix bug for ACSh
+
+Version 20.09.01.21338(Build 21338/Cecilia;[PUBLISH ON 2020-09-15];{Alpha+HF+DV Version}):
+	- Added licenses.
+	- Added Branch licenses.
