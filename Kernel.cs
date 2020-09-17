@@ -34,11 +34,10 @@ namespace AzureCecilia_OS
                 }
                 else
                 {
-                    break;
+                    string args = Console.ReadLine();
+                    CommandExecutor.Run(command, args);
+                    Console.ReadKey();
                 }
-                string args = Console.ReadLine();
-                CommandExecutor.Run(command, args);
-                Console.ReadKey();
             }
         }
     }

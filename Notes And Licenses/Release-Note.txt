@@ -30,3 +30,10 @@ Version 20.09.01.22400(Build 22400/Cecilia;[PUBLISH ON 2020-09-16];{Alpha+HF+DV 
 	- Add keyword: cpu::cyclespeed
 	- Add KeyboardManaged class(Developing...)
 	- Add some key listener...
+
+Version 20.09.01.23515(Build 23515/Cecilia;[PUBLISH ON 2020-09-17];{Alpha+DV+PB Version}:00600_1_1_1):
+	- First published version!
+	- Fix ACSh cannot input bug.
+	- Disabled 'MORE' Command keyword.
+	- Some application demo(writeing...)
+	- Enjoy bugs!

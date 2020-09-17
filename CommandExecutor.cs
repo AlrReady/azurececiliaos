@@ -1,4 +1,5 @@
-﻿using Cosmos.Core;
+﻿using AzureCecilia_OS.ACPI;
+using Cosmos.Core;
 using Cosmos.System.Network.IPv4;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,15 @@ namespace AzureCecilia_OS
         {
             
             return "1";
+        }
+        public void KeyboardInputTester(string input)
+        {
+            KeyboardManaged kb = new KeyboardManaged();
+            string key = kb.GetKeyPressed();
+            if (input == key)
+            {
+                Console.WriteLine("YES");
+            }
         }
     }
     class CommandExecutorInstance
@@ -73,6 +83,7 @@ namespace AzureCecilia_OS
         {
             CommandExecutorInstance c = new CommandExecutorInstance();
             CPUManagedEx cpu = new CPUManagedEx();
+            DEBUG_CommandExecutorInstance dce = new DEBUG_CommandExecutorInstance();
             switch (command)
             {
                 case "print":
@@ -94,6 +105,11 @@ namespace AzureCecilia_OS
                     {
                         // 请勿使用ACPI
                         Cosmos.System.Power.Reboot();
+                        break;
+                    }
+                case "keyboard::inputkey_test":
+                    {
+                        dce.KeyboardInputTester(Console.ReadLine());
                         break;
                     }
                 case "powerdown":

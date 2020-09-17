@@ -11,3 +11,5 @@
 排序等级:
 
 product > master > dev > beta > alpha >= zero
+
+PB(publish),既已发布版,不是正式版
