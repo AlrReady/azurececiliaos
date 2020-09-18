@@ -86,6 +86,11 @@ namespace AzureCecilia_OS
             DEBUG_CommandExecutorInstance dce = new DEBUG_CommandExecutorInstance();
             switch (command)
             {
+                case "debug::DEBUG_CPU_INFOS":
+                    {
+                        Console.WriteLine(cpu.getCPUCycleSpeed() + cpu.getCPUVendorString());
+                        break;
+                    }
                 case "print":
                     {
                         c.Print(args);

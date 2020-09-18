@@ -4,7 +4,7 @@
 
 原则上,新版本应当使用如下流程:
 
-/master分支上的源代码=>合并到/product上=>发布product(release)版
+/master分支上的源代码=>发布product(release/publish)版
 
 某些细微修正,可不增加版本号,直接把版本状态后加上'HF',既Hotfix
 
