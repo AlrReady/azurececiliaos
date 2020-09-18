@@ -4,6 +4,7 @@ using System.Text;
 
 namespace AzureCecilia_OS
 {
+
     class CPUManagedEx
     {
         public bool isCPUInpurruptsIsEnabled()

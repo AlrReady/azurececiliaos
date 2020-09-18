@@ -4,6 +4,7 @@ using System.Text;
 
 namespace AzureCecilia_OS
 {
+
     class AboutConfigs
     {
         public const string ACOS_VERSION = "20.09.01.23516(20sep09b0123516)";
