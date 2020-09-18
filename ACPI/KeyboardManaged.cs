@@ -4,6 +4,7 @@ using System.Text;
 
 namespace AzureCecilia_OS.ACPI
 {
+
     class KeyboardManaged
     {
         public bool AltKeyPressed()

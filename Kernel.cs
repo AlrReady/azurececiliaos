@@ -14,6 +14,7 @@ namespace AzureCecilia_OS
             Console.WriteLine(BootConfigs.BOOT_SUCCESSFULY_MSG);
         }
 
+
         protected override void Run()
         {
             CommandExecutor ce = new CommandExecutor();
@@ -37,6 +38,7 @@ namespace AzureCecilia_OS
                     string args = Console.ReadLine();
                     CommandExecutor.Run(command, args);
                     Console.ReadKey();
+
                 }
             }
         }

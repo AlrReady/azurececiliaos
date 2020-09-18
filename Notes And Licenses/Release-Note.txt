@@ -37,3 +37,8 @@ Version 20.09.01.23515(Build 23515/Cecilia;[PUBLISH ON 2020-09-17];{Alpha+DV+PB 
 	- Disabled 'MORE' Command keyword.
 	- Some application demo(writeing...)
 	- Enjoy bugs!
+
+Version 20.09.01.23517(Build 23517/Cecilia;[PUBLISH ON 2020-09-18];{Alpha+DV+PB Version};00600_1_1_1):
+	- Fix git project tree bug.
+	- Add debug support.
+	- Update ACSh version.

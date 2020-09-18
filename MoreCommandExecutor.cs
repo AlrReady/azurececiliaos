@@ -6,6 +6,7 @@ namespace AzureCecilia_OS
 {
     class MoreCommandExecutor
     {
+        // More command is disabled.
         public void Run(string[] lines)
         {
             CommandExecutor c = new CommandExecutor();
