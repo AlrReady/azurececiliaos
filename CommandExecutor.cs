@@ -135,6 +135,10 @@ namespace AzureCecilia_OS
                     {
                         Console.WriteLine(cpu.getCPUCycleSpeed().ToString());break;
                     }
+                case "debug::get_tag":
+                    {
+                        Console.WriteLine(AboutConfigs.ACOS_VERSION_TAG);break;
+                    }
             }
         }
     }

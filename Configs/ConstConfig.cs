@@ -6,9 +6,9 @@ namespace AzureCecilia_OS
 {
     class AboutConfigs
     {
-        public const string ACOS_VERSION = "20.09.01.23515(20sep09b0123515)";
-        public const string ACOS_KERNEL = "20.09.01.23515";
-        public const string ACOS_BUILD = "Version 20.1 Build 23515";
+        public const string ACOS_VERSION = "20.09.01.23516(20sep09b0123516)";
+        public const string ACOS_KERNEL = "20.09.01.23516";
+        public const string ACOS_BUILD = "Version 20.1 Build 23516";
         public const string ACOS_AUTHOR = "Biscuitcube Studio";
         public const string ACSH_VERSION = "1.1.1";
         public const string ACSH_BUILD = "00600";
